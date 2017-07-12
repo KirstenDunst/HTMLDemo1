@@ -36,12 +36,17 @@ namespace 事件
 
 
             Cat cat = new Cat();
+
             cat.Miao();
+
             cat.CatMiaoHandler += Mouse.Run;
             cat.CatMiaoHandler += Dog.Wang;
             cat.CatMiaoHandler += Neighbor.Awake;
             cat.CatMiaoHandler += Stealer.Hide;
+            //对新的事件方法，只用在这里添加就可以了，方便顺序修改和添加
 
+
+            //而之前的耦合性比较高，修改起来会比较麻烦
             cat.MiaoEvent();
 
 

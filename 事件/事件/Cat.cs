@@ -11,7 +11,6 @@ namespace 事件
         {
             Console.WriteLine("****************Miao*****************");
             Console.WriteLine("猫 喵一声");
-            //观察者模式
             Mouse.Run();
             Dog.Wang();
             Neighbor.Awake();
