@@ -8,15 +8,23 @@ namespace 事件
         {
             Console.WriteLine("事件Event的使用！");
 
-
             MyEvent myEvent = new MyEvent();
-            myEvent.DoSomethingHandler += new DoSomething(ShowSomething);
-            myEvent.DoSomethingHandler += ShowSomething;
-            myEvent.DoSomethingHandler += ShowSomething;
 
-            myEvent.DoSomethingHandler -= ShowSomething;
-            myEvent.Invoke();
 
+            myEvent.DoSomethingHandlerEvent += new DoSomething(ShowSomething);
+            myEvent.DoSomethingHandlerEvent += ShowSomething;
+            myEvent.DoSomethingHandlerEvent += ShowSomething;
+            myEvent.DoSomethingHandlerEvent -= ShowSomething;
+            myEvent.InvokeEvent();
+
+
+            myEvent.DoSomethingHandlerDelegate += new DoSomething(ShowSomething);
+			myEvent.DoSomethingHandlerDelegate += ShowSomething;
+			myEvent.DoSomethingHandlerDelegate += ShowSomething;
+
+            myEvent.DoSomethingHandlerDelegate = new DoSomething(ShowSomething);
+			myEvent.DoSomethingHandlerDelegate -= ShowSomething;
+            myEvent.InvokeDelgate();
 
 
             Console.Read();
