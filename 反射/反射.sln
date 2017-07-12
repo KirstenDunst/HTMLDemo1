@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runmou.Dal", "Runmou.Dal\Ru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runmou.Interface", "Runmou.Interface\Runmou.Interface.csproj", "{8EE790B9-7A44-4828-BECF-DEC721EB8735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runmou.Dal.Mysql", "Runmou.Dal.Mysql\Runmou.Dal.Mysql.csproj", "{A8A99B46-F839-44B7-8B87-14976A07F957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +27,9 @@ Global
 		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Debug|x86.Build.0 = Debug|Any CPU
 		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Release|x86.ActiveCfg = Release|Any CPU
 		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Release|x86.Build.0 = Release|Any CPU
+		{A8A99B46-F839-44B7-8B87-14976A07F957}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8A99B46-F839-44B7-8B87-14976A07F957}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8A99B46-F839-44B7-8B87-14976A07F957}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8A99B46-F839-44B7-8B87-14976A07F957}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

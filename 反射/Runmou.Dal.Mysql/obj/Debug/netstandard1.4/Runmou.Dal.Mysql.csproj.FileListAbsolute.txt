@@ -1,0 +1,10 @@
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/bin/Debug/netstandard1.4/Runmou.Dal.Mysql.deps.json
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/obj/Debug/netstandard1.4/Runmou.Dal.Mysql.csprojResolveAssemblyReference.cache
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/obj/Debug/netstandard1.4/Runmou.Dal.Mysql.csproj.CoreCompileInputs.cache
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/obj/Debug/netstandard1.4/Runmou.Dal.Mysql.AssemblyInfo.cs
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/bin/Debug/netstandard1.4/Runmou.Dal.Mysql.dll
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/bin/Debug/netstandard1.4/Runmou.Dal.Mysql.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/bin/Debug/netstandard1.4/Runmou.Interface.dll
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/bin/Debug/netstandard1.4/Runmou.Interface.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/obj/Debug/netstandard1.4/Runmou.Dal.Mysql.dll
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal.Mysql/obj/Debug/netstandard1.4/Runmou.Dal.Mysql.pdb
