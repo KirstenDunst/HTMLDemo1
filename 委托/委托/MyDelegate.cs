@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading;
+
 namespace 委托
 {
 	
@@ -18,12 +20,34 @@ namespace 委托
         //2.委托的实例化
         public static void Show()
         {
-            NoParaNoReturn method = new NoParaNoReturn(ShowSomething);
-            //3.委托的实例调用
-            method.Invoke();
-            //也可以这样写
-            method();
-        }
+            #region 第一次
+            //NoParaNoReturn method = new NoParaNoReturn(ShowSomething);
+            ////3.委托的实例调用
+            //method.Invoke();
+            ////也可以这样写
+            //method();
+            #endregion 第一次
+
+
+            NoParaWithReturn noParaWithReturnMethod = new NoParaWithReturn(GetSomething);
+            //Console.WriteLine("noParaWithReturnMethod.Invoke()结果是{0}",noParaWithReturnMethod.Invoke());
+            //Console.WriteLine("noParaWithReturnMethod()结果是{0}", noParaWithReturnMethod());
+
+
+            //多播委托
+            noParaWithReturnMethod += GetSomething;//按顺序添加到方法列表
+            noParaWithReturnMethod += GetSomething;
+            noParaWithReturnMethod += GetSomething;
+            noParaWithReturnMethod += GetSomething;
+
+            noParaWithReturnMethod -= GetSomething;//从方法列表的尾部去掉且只取掉一个完全匹配
+
+			Console.WriteLine("noParaWithReturnMethod.Invoke()结果是{0}",noParaWithReturnMethod.Invoke());
+			Console.WriteLine("noParaWithReturnMethod()结果是{0}", noParaWithReturnMethod());
+
+
+
+		}
 
         private static void ShowSomething()
         {
@@ -31,6 +55,13 @@ namespace 委托
         }
 
 
+        public static int GetSomething()
+        {
+            Console.WriteLine("这里是GetSomething");
+
+            Thread.Sleep(1200);
+            return 11;//DateTime.Now.Millisecond;
+        }
 	}
 
 }
