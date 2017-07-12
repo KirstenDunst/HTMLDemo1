@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LambdaTest.cs">
     <Files>
       <File FileName="Lambda/Program.cs" Line="15" Column="1" />
-      <File FileName="Lambda/LambdaTest.cs" Line="6" Column="16" />
+      <File FileName="Lambda/LambdaTest.cs" Line="79" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

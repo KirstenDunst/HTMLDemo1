@@ -1,0 +1,5 @@
+/Users/zssy/Desktop/HTMLDemo1/Lambda/Lambda/bin/Debug/Lambda.exe
+/Users/zssy/Desktop/HTMLDemo1/Lambda/Lambda/bin/Debug/Lambda.pdb
+/Users/zssy/Desktop/HTMLDemo1/Lambda/Lambda/obj/x86/Debug/Lambda.csproj.CoreCompileInputs.cache
+/Users/zssy/Desktop/HTMLDemo1/Lambda/Lambda/obj/x86/Debug/Lambda.exe
+/Users/zssy/Desktop/HTMLDemo1/Lambda/Lambda/obj/x86/Debug/Lambda.pdb
