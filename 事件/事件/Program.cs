@@ -8,23 +8,43 @@ namespace 事件
         {
             Console.WriteLine("事件Event的使用！");
 
-            MyEvent myEvent = new MyEvent();
+            //MyEvent myEvent = new MyEvent();
 
 
-            myEvent.DoSomethingHandlerEvent += new DoSomething(ShowSomething);
-            myEvent.DoSomethingHandlerEvent += ShowSomething;
-            myEvent.DoSomethingHandlerEvent += ShowSomething;
-            myEvent.DoSomethingHandlerEvent -= ShowSomething;
-            myEvent.InvokeEvent();
+            //         myEvent.DoSomethingHandlerEvent += new DoSomething(ShowSomething);
+            //         myEvent.DoSomethingHandlerEvent += ShowSomething;
+            //         myEvent.DoSomethingHandlerEvent += ShowSomething;
+
+            //         //myEvent.DoSomethingHandlerEvent();  //不允许外面直接调用事件
+            ////myEvent.DoSomethingHandlerEvent = new DoSomething(ShowSomething); //不允许外面直接对事件赋值
+
+            //         //只能+=或者-=动作
+            //         myEvent.DoSomethingHandlerEvent -= ShowSomething;
+            //         myEvent.InvokeEvent();
 
 
-            myEvent.DoSomethingHandlerDelegate += new DoSomething(ShowSomething);
-			myEvent.DoSomethingHandlerDelegate += ShowSomething;
-			myEvent.DoSomethingHandlerDelegate += ShowSomething;
+            //         myEvent.DoSomethingHandlerDelegate += new DoSomething(ShowSomething);
+            //myEvent.DoSomethingHandlerDelegate += ShowSomething;
+            //myEvent.DoSomethingHandlerDelegate += ShowSomething;
+            //         //可以直接调用
+            //         myEvent.DoSomethingHandlerDelegate();
+            //         //委托重新定义，能够重新赋值
+            //         //myEvent.DoSomethingHandlerDelegate = new DoSomething(ShowSomething);
+            //myEvent.DoSomethingHandlerDelegate -= ShowSomething;
+            //myEvent.InvokeDelgate();
 
-            myEvent.DoSomethingHandlerDelegate = new DoSomething(ShowSomething);
-			myEvent.DoSomethingHandlerDelegate -= ShowSomething;
-            myEvent.InvokeDelgate();
+
+
+            Cat cat = new Cat();
+            cat.Miao();
+            cat.CatMiaoHandler += Mouse.Run;
+            cat.CatMiaoHandler += Dog.Wang;
+            cat.CatMiaoHandler += Neighbor.Awake;
+            cat.CatMiaoHandler += Stealer.Hide;
+
+            cat.MiaoEvent();
+
+
 
 
             Console.Read();

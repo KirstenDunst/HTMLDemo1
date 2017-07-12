@@ -9,10 +9,10 @@ namespace 事件
     {
         //委托的一个变量
         public  DoSomething DoSomethingHandlerDelegate;
-        //事件：就是一个委托的变量，然后再加上了关键字event修饰
+        //事件：就是一个委托的变量，然后再加上了关键字event修饰，做了权限控制
         public event DoSomething DoSomethingHandlerEvent;
 
-#region   //这个字段相互之间的代码不进行编译，隐藏起来了
+        #region   //这个字段相互之间的代码不进行编译，隐藏起来了
         //委托是一种类型
         //事件是委托的一个实例
 
@@ -23,7 +23,8 @@ namespace 事件
             Id = 11,
             Name = "Eleven"
         };
-#endregion
+        #endregion
+
 
 
         public  void  InvokeEvent(){
