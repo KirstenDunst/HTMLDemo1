@@ -1,0 +1,5 @@
+/Users/zssy/Desktop/HTMLDemo1/委托/委托/bin/Debug/委托.exe
+/Users/zssy/Desktop/HTMLDemo1/委托/委托/bin/Debug/委托.pdb
+/Users/zssy/Desktop/HTMLDemo1/委托/委托/obj/x86/Debug/委托.csproj.CoreCompileInputs.cache
+/Users/zssy/Desktop/HTMLDemo1/委托/委托/obj/x86/Debug/委托.exe
+/Users/zssy/Desktop/HTMLDemo1/委托/委托/obj/x86/Debug/委托.pdb
