@@ -1,0 +1,5 @@
+/Users/zssy/Desktop/HTMLDemo1/事件/事件/bin/Debug/事件.exe
+/Users/zssy/Desktop/HTMLDemo1/事件/事件/bin/Debug/事件.pdb
+/Users/zssy/Desktop/HTMLDemo1/事件/事件/obj/x86/Debug/事件.csproj.CoreCompileInputs.cache
+/Users/zssy/Desktop/HTMLDemo1/事件/事件/obj/x86/Debug/事件.exe
+/Users/zssy/Desktop/HTMLDemo1/事件/事件/obj/x86/Debug/事件.pdb
