@@ -886,13 +886,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Runmou.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.4",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        }
       }
     }
   },
@@ -3702,17 +3695,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Runmou.Interface/1.0.0": {
-      "type": "project",
-      "path": "../Runmou.Interface/Runmou.Interface.csproj",
-      "msbuildProject": "../Runmou.Interface/Runmou.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.4": [
-      "NETStandard.Library >= 1.6.1",
-      "Runmou.Interface >= 1.0.0"
+      "NETStandard.Library >= 1.6.1"
     ]
   },
   "packageFolders": {
@@ -3721,21 +3708,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/Runmou.Dal.csproj",
-      "projectName": "Runmou.Dal",
-      "projectPath": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/Runmou.Dal.csproj",
-      "outputPath": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/obj",
+      "projectUniqueName": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/Runmou.Interface.csproj",
+      "projectName": "Runmou.Interface",
+      "projectPath": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/Runmou.Interface.csproj",
+      "outputPath": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
       "frameworks": {
         "netstandard1.4": {
-          "projectReferences": {
-            "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/Runmou.Interface.csproj": {
-              "projectPath": "/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/Runmou.Interface.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },

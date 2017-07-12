@@ -35,5 +35,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Runmou.Interface\Runmou.Interface.csproj">
+      <Project>{8EE790B9-7A44-4828-BECF-DEC721EB8735}</Project>
+      <Name>Runmou.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

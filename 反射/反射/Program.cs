@@ -3,6 +3,7 @@
 
 //这个是dotnet提供给我们的一个反射的类库（可以帮助我们动态的解析dal，动态的使用），今天是我们使用一下动态的加载
 using System.Reflection;
+using Runmou.Interface;
 
 namespace 反射
 {
@@ -39,18 +40,20 @@ namespace 反射
 			}
 
 
-			//Console.WriteLine("\n**************************Type 类**************************\n");
-			////获取他的模块
-			//Type[] types = assembly.GetTypes();
-			//foreach (Type type in types)
-			//{
-			//	Console.WriteLine(type.Name);
-			//}
-			////根据关键字找到具体的某一个类
-			//Type typeHelper = assembly.GetType("Runmou.Dal.SqlserverHelper");
-			////初始化SqlserverHelper的对象
-			//Object oHelper = Activator.CreateInstance(typeHelper);
+			Console.WriteLine("\n**************************Type 类**************************\n");
+			//获取他的所有类型
+			Type[] types = assembly.GetTypes();
+			foreach (Type type in types)
+			{
+				Console.WriteLine(type.Name);
+			}
+			//根据关键字找到具体的某一个类
+			Type typeHelper = assembly.GetType("Runmou.Dal.SelserverHelper");
+            //初始化SqlserverHelper的对象(反射的方法创建一个对象)
+			Object oHelper = Activator.CreateInstance(typeHelper);
 
+            IHelper iHelper = (IHelper)oHelper;
+            iHelper.Query();
 
 
 
@@ -58,5 +61,6 @@ namespace 反射
 			//保证控制台不会跳走
 			Console.Read();
         }
+
     }
 }

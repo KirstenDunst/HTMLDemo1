@@ -7,13 +7,12 @@
   "targets": {
     ".NETStandard,Version=v1.4": {},
     ".NETStandard,Version=v1.4/": {
-      "runmou.dal/1.0.0": {
+      "runmou.interface/1.0.0": {
         "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "Runmou.Interface": "1.0.0"
+          "NETStandard.Library": "1.6.1"
         },
         "runtime": {
-          "Runmou.Dal.dll": {}
+          "Runmou.Interface.dll": {}
         }
       },
       "microsoft.netcore.platforms/1.1.0": {},
@@ -562,19 +561,11 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "runmou.interface/1.0.0": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
-        "runtime": {
-          "Runmou.Interface.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "runmou.dal/1.0.0": {
+    "runmou.interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1012,11 +1003,6 @@
       "sha512": "sha512-mS9UdZVUCbZ5hetNiJAeDyw+Lqu3j81zaTDO7032CZLnT5FeMdd+1uzlJ8o0hGfC/RTuxHmOXOffeAZnenwIXg==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
-    },
-    "runmou.interface/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

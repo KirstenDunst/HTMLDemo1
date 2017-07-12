@@ -1,6 +1,9 @@
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/bin/Debug/netstandard1.4/Runmou.Dal.deps.json
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/bin/Debug/netstandard1.4/Runmou.Dal.dll
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/bin/Debug/netstandard1.4/Runmou.Dal.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/bin/Debug/netstandard1.4/Runmou.Interface.dll
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/bin/Debug/netstandard1.4/Runmou.Interface.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/obj/Debug/netstandard1.4/Runmou.Dal.csprojResolveAssemblyReference.cache
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/obj/Debug/netstandard1.4/Runmou.Dal.csproj.CoreCompileInputs.cache
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/obj/Debug/netstandard1.4/Runmou.Dal.AssemblyInfo.cs
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Dal/obj/Debug/netstandard1.4/Runmou.Dal.dll

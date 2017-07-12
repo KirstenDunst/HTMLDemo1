@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runmou.Dal", "Runmou.Dal\Runmou.Dal.csproj", "{371F5227-3BF1-46FE-9B86-C157E8D6C63B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runmou.Interface", "Runmou.Interface\Runmou.Interface.csproj", "{8EE790B9-7A44-4828-BECF-DEC721EB8735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{371F5227-3BF1-46FE-9B86-C157E8D6C63B}.Debug|x86.Build.0 = Debug|Any CPU
 		{371F5227-3BF1-46FE-9B86-C157E8D6C63B}.Release|x86.ActiveCfg = Release|Any CPU
 		{371F5227-3BF1-46FE-9B86-C157E8D6C63B}.Release|x86.Build.0 = Release|Any CPU
+		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Debug|x86.Build.0 = Debug|Any CPU
+		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Release|x86.ActiveCfg = Release|Any CPU
+		{8EE790B9-7A44-4828-BECF-DEC721EB8735}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

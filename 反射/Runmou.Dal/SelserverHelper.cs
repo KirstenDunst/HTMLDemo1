@@ -1,8 +1,9 @@
 ﻿using System;
+using Runmou.Interface;
 
 namespace Runmou.Dal
 {
-    public class SelserverHelper
+    public class SelserverHelper:IHelper
     {
 
         public SelserverHelper(){
@@ -14,4 +15,5 @@ namespace Runmou.Dal
             Console.WriteLine("SelserverHelper Query");
         }
     }
+
 }
