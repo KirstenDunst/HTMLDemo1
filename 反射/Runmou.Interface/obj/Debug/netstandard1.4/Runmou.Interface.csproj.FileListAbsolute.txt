@@ -5,3 +5,4 @@
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/obj/Debug/netstandard1.4/Runmou.Interface.AssemblyInfo.cs
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/obj/Debug/netstandard1.4/Runmou.Interface.dll
 /Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/obj/Debug/netstandard1.4/Runmou.Interface.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/Runmou.Interface/obj/Debug/netstandard1.4/Runmou.Interface.csprojResolveAssemblyReference.cache

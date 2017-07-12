@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{FB7FC48E-4848-48A3-9527-017702CBCAC9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Runmou.Interface/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="反射/Program.cs">
     <Files>
-      <File FileName="反射/Program.cs" Line="25" Column="13" />
-      <File FileName="Runmou.Dal/SelserverHelper.cs" Line="8" Column="34" />
-      <File FileName="Runmou.Interface/Class1.cs" Line="1" Column="1" />
+      <File FileName="反射/Program.cs" Line="51" Column="66" />
+      <File FileName="Runmou.Dal/SelserverHelper.cs" Line="16" Column="1" />
+      <File FileName="Runmou.Interface/IHelper.cs" Line="8" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="反射" expanded="True">
             <Node name="Runmou.Dal" expanded="True" />
-            <Node name="Runmou.Interface" expanded="True">
-              <Node name="Class1.cs" selected="True" />
-            </Node>
+            <Node name="Runmou.Interface" expanded="True" />
             <Node name="反射" expanded="True">
-              <Node name="References" expanded="True" />
+              <Node name="App.config" selected="True" />
             </Node>
           </Node>
         </State>
