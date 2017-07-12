@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{130BD3C4-F73C-418F-9038-248C562ABBB2}|Default">
   <MonoDevelop.Ide.ItemProperties.事件 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="事件/Cat.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="事件/MyEvent.cs">
     <Files>
-      <File FileName="事件/Program.cs" Line="31" Column="28" />
+      <File FileName="事件/Program.cs" Line="49" Column="35" />
       <File FileName="事件/MyEvent.cs" Line="29" Column="9" />
-      <File FileName="事件/Cat.cs" Line="5" Column="6" />
-      <File FileName="事件/Dog.cs" Line="1" Column="1" />
-      <File FileName="事件/Mouse.cs" Line="1" Column="1" />
-      <File FileName="事件/Neighbor.cs" Line="1" Column="1" />
-      <File FileName="事件/Stealer.cs" Line="1" Column="1" />
+      <File FileName="事件/Cat.cs" Line="13" Column="40" />
+      <File FileName="事件/Dog.cs" Line="8" Column="37" />
+      <File FileName="事件/Mouse.cs" Line="8" Column="39" />
+      <File FileName="事件/Neighbor.cs" Line="9" Column="10" />
+      <File FileName="事件/Stealer.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
