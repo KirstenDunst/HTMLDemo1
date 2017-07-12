@@ -1,0 +1,6 @@
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/obj/x86/Debug/反射.csprojResolveAssemblyReference.cache
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/obj/x86/Debug/反射.csproj.CoreCompileInputs.cache
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/bin/Debug/反射.exe
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/bin/Debug/反射.pdb
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/obj/x86/Debug/反射.exe
+/Users/zssy/Desktop/HTMLDemo1/反射/反射/obj/x86/Debug/反射.pdb
