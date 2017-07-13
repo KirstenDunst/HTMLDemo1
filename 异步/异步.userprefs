@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{7AA6202B-C013-4F21-9FF1-A0A0D0C927CA}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="异步/Program.cs">
     <Files>
-      <File FileName="异步/Program.cs" Line="16" Column="2" />
+      <File FileName="异步/Program.cs" Line="12" Column="13" />
+      <File FileName="异步/packages.config" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
