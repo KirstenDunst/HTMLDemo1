@@ -8,6 +8,10 @@ namespace Lambda
         {
             Console.WriteLine("Hello World!");
 
+
+            LinqTest.Show();
+
+
             Console.Read();
         }
     }

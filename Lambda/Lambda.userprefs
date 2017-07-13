@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{6E2E7E6F-DFBF-49D6-913B-BA8DB3701F78}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LambdaTest.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Lambda/Program.cs" Line="15" Column="1" />
-      <File FileName="Lambda/LambdaTest.cs" Line="79" Column="55" />
+      <File FileName="Lambda/Program.cs" Line="12" Column="29" />
+      <File FileName="Lambda/LambdaTest.cs" Line="1" Column="1" />
+      <File FileName="Lambda/LinqTest.cs" Line="44" Column="46" />
+      <File FileName="Lambda/Student.cs" Line="11" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
