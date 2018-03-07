@@ -1,5 +1,25 @@
 ﻿<Properties StartupConfiguration="{6E2E7E6F-DFBF-49D6-913B-BA8DB3701F78}|Default">
+<<<<<<< Updated upstream
   <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LinqTest.cs">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/Program.cs">
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LinqTest.cs">
+>>>>>>> origin/master
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LinqTest.cs">
+>>>>>>> origin/master
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LinqTest.cs">
+>>>>>>> origin/master
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lambda/LinqTest.cs">
+>>>>>>> origin/master
+>>>>>>> Stashed changes
     <Files>
       <File FileName="Lambda/Program.cs" Line="12" Column="29" />
       <File FileName="Lambda/LambdaTest.cs" Line="1" Column="1" />
